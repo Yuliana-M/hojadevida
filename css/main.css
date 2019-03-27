@@ -1,0 +1,21 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+.tabla {
+  align-content: center;
+  border-color: #f70c8d;
+
+
+
+footer {
+  background: url(../img/smartphones.png);
+}

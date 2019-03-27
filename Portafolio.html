@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+     <!-- GOOGLE FONT -->
+     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+     <!-- BOOTSTRAP 4 -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+     <!-- CUSTOM CSS -->
+
+<style>
+ 
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+} 
+
+.content-all {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-img {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-img img {
+    width: 100%;
+    transition: all 300ms;
+    
+}
+
+.content-1 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: #f500c062;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    margin-left: -750px;
+    -webkit-transition: 300ms;
+    transition: all  300ms;
+}
+
+.content-2 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background:#f500c062;
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    margin-left: -800px;
+    -webkit-transition: 500ms;
+    transition:  all 500ms;
+   
+    
+}
+
+.content-3 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: #f500c062;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    margin-left: -800px;
+    margin-top: -500px;
+    -webkit-transition: 900ms;
+    transition:  all 900ms;
+    -webkit-transition: 0px 1px 20px -5px black;
+    box-shadow: 0px 1px 20px -5px black;
+}   
+
+.content-4 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: #f500c062;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    margin-left: -850px;
+    margin-top: -500px;
+    -webkit-transition: 700ms;
+    transition:  all 700ms;
+
+}
+
+.content-img:hover .content-1{
+    width: 222%;
+    -webkit-transition: all 900ms;
+    transition: all 900ms;
+}
+
+.content-img:hover .content-2{
+    width: 222%;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.content-img:hover .content-3{
+    width: 222%;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.content-img:hover .content-4{
+    width: 222%;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+.content-img:hover img{
+    -webkit-transition: scale(1.5);
+    transform: scale(1.5);
+    transition: all 300ms;
+    opacity: 0.8;
+}
+
+.content-txt {
+    position: absolute;
+    top: 0;
+    width: 400px;
+    padding: 10px;
+    z-index: 1;
+    color: bisque;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content-txt h2 {
+    font-size: 30px;
+    opacity: 0;
+    transform: scale(0.2);
+    transition: all 300ms;
+}
+
+.content-txt p {
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 0;
+    transform: scale(1.5);
+    transition: all 300ms;
+}
+
+.content-img:hover h2 {
+    opacity: 1;
+    transition: all 300ms;
+    transform: scale(1)
+}
+
+.content-img:hover p{
+    opacity: 1;
+    transform: scale(1);
+    transition: all 500ms;
+
+}
+</style>
+
+
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">Perfil Empresarial</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="index.html">Inicio</a>
+                <a class="nav-item nav-link" href="index.html/">Habilidades</a>
+                <a class="nav-item nav-link" href="Portafolio.html">Portafolio</a>
+                <a class="nav-item nav-link" href="index.html">Formacion y Contacto</a>
+              
+              </div>
+            </div>
+    </nav>
+    
+ 
+
+    <div class="content-all">
+        
+         <div class="content-img">
+        
+            <img src="img/cripto.png">
+                     <div class="content-txt">
+                     <a href="https://amolascriptos.github.io/AmoLasCriptomedas/amolascriptos.html" target="_blank"><h2>Ver el Proyecto</h2></a>
+                     <p>Pagina dirigida a las criptomonedas</p>
+                      </div>
+                      <div class="content-1"></div>
+                      <div class="content-2"></div>
+                      <div class="content-3"></div>
+                      <div class="content-4"></div>
+                      </div>
+             
+             
+    </div>
+
+    <div class="content-all">
+        
+            <div class="content-img">
+           
+               <img src="img/c.png" >
+                        <div class="content-txt">
+                        <a href="https://yuliana-munoz.github.io/Contacto/" target="_blank"><h2>Ver el Proyecto</h2></a>
+                        <p>Pagina dirigida una seccion de contacto</p>
+                         </div>
+                         <div class="content-1"></div>
+                         <div class="content-2"></div>
+                         <div class="content-3"></div>
+                         <div class="content-4"></div>
+                         </div>
+                
+                
+       </div>
+
+    <div class="content-all">
+        
+            <div class="content-img">
+           
+               <img src="img/perfil.png">
+                        <div class="content-txt">
+                        <a href="https://yuliana-munoz.github.io/Programadora" target="_blank"><h2>Ver el Proyecto</h2></a>
+                        <p>Pagina dirigida a un proyecto personal</p>
+                         </div>
+                         <div class="content-1"></div>
+                         <div class="content-2"></div>
+                         <div class="content-3"></div>
+                         <div class="content-4"></div>
+                         </div>
+                
+                
+       </div>
+        
+   
+             
+     
+</body>
+</html>
